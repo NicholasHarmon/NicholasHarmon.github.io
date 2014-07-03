@@ -126,6 +126,7 @@
 	  function clearMarkers() {
   		setAllMap(null);
 	  }
+<<<<<<< HEAD
 	  
 	  //Submit textbox on enter key
 	  $("address").keyup(function(event) {
@@ -133,12 +134,18 @@
 	      $("search").click();
 	    }
 	  }
+=======
+>>>>>>> FETCH_HEAD
 	</script>
   </head>
   <body onload="initialize()">
     <div align="center">
       <input id="address" type="textbox" value="Sydney, NSW">
+<<<<<<< HEAD
       <input id="search" type="button" value="Search" onclick="codeAddress()">
+=======
+      <input type="button" value="Search" onclick="codeAddress()">
+>>>>>>> FETCH_HEAD
       <input id="topTen" type="button" value="Top 10 largest earthquakes within past year" onclick="topTenEarthquakes()">
     </div>
     <div id="map-canvas"/>
